@@ -1,0 +1,64 @@
+nav {
+  background: #242527;
+  padding: 0.5rem 0.25rem;
+  color: #fff;
+}
+ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+li {
+  margin-right: 2rem;
+  display: flex;
+  align-items: center;
+}
+
+li small {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 1.75rem;
+  height: 1.75rem;
+  border-radius: 50%;
+  margin-right: 0.55rem;
+  background-color: #71767e41;
+}
+
+li button {
+  font-size: 1.75rem;
+  background: none;
+  border: none;
+  color: #4592f0;
+  margin-left: 0.25rem;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 0.5rem;
+  display: inline-flex;
+  align-items: center;
+  padding: 0;
+}
+i {
+  display: inline-block;
+}
+nav .blog {
+  font-size: large;
+  font-weight: 700;
+}
+.delete {
+  color: red;
+  font-size: 1.15rem;
+}
+
+@media screen and (max-width: 750px) {
+  ul {
+    flex-direction: column;
+    /* justify-content: flex-start; */
+    align-items: flex-start;
+  }
+  li {
+    margin: 0.35rem;
+  }
+}

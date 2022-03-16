@@ -1,0 +1,32 @@
+.blogContent {
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+  gap: 0.5rem;
+  padding: 0.5rem;
+  background-color: #242527;
+  color: white;
+  border-radius: 0.25rem;
+}
+.blogContent img {
+  width: 8rem;
+  height: 8rem;
+  border-radius: 0.25rem;
+  object-fit: cover;
+}
+.title {
+  color: #4391f1;
+  /* line-height: 0.2; */
+}
+.date {
+  color: #8d8989;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+@media screen and (max-width: 750px) {
+  .blogContent img {
+    height: 4rem;
+    width: 4rem;
+  }
+}

@@ -1,0 +1,14 @@
+.blogParent {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.75rem;
+}
+.recentComp {
+  margin-bottom: 5rem;
+}
+
+@media screen and (max-width: 750px) {
+  .blogParent {
+    grid-template-columns: 1fr;
+  }
+}
