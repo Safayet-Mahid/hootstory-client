@@ -13,6 +13,7 @@ li {
   margin-right: 2rem;
   display: flex;
   align-items: center;
+  cursor: pointer;
 }
 
 li small {
@@ -39,9 +40,11 @@ li button {
   display: inline-flex;
   align-items: center;
   padding: 0;
+  cursor: pointer;
 }
 i {
   display: inline-block;
+  cursor: pointer;
 }
 nav .blog {
   font-size: large;

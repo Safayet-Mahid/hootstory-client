@@ -20,7 +20,15 @@
   margin-right: auto;
   padding: 4rem 0;
 }
-
+.backData {
+  color: rgba(144, 238, 144, 0.815);
+  text-align: center;
+  border: 1px solid rgba(144, 238, 144, 0.815);
+  width: 50%;
+  margin: auto;
+  padding: 1.5rem;
+  cursor: pointer;
+}
 .toggle {
   display: none;
   background-color: red;

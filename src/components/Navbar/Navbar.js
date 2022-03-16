@@ -30,8 +30,8 @@ const Navbar = ({ blogs, displayShort, displayLong, setDisplayShort, setDisplayL
 
         })
             .then(res => res.json())
-            .then(data => console.log(data))
-        console.log(confirm)
+            .then()
+
     }
 
 
