@@ -5,7 +5,7 @@ import { MdToggleOn, MdToggleOff } from "react-icons/md"
 import "./Navbar.css"
 
 
-const Navbar = ({ blogs, displayShort, displayLong, setDisplayShort, setDisplayLong, displayBlog }) => {
+const Navbar = ({ blogs, setBlogs, displayShort, displayLong, setDisplayShort, setDisplayLong, displayBlog }) => {
 
 
     const longStories = displayBlog.filter(blog => blog.type === "long").length
@@ -30,7 +30,7 @@ const Navbar = ({ blogs, displayShort, displayLong, setDisplayShort, setDisplayL
 
         })
             .then(res => res.json())
-            .then()
+            .then(setBlogs([]))
 
     }
 
